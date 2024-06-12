@@ -70,8 +70,9 @@ require("../config/commandes.php");
     <label for="desc" class="form-label">Description</label>
     <textarea class="form-control" name="desc" id="desc" required></textarea>
   </div>
-  
-  <button type="submit" name="valider" class="btn btn-success">Ajouter le nouveau produit</button>
+  <button type="submit" name="valider" class="btn btn-success" id="" onclick ="popup()">Ajouter le nouveau produit</button>
+
+
   </form>
 </div>
 </body>
